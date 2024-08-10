@@ -27,7 +27,7 @@ const Profile = ({ name, tag, location, image, stats }) => {
     </div>
   );
 };
-  
+
 export default function App () {
   return (
     <>
@@ -38,6 +38,7 @@ export default function App () {
          location={userData.location}
          stats={userData.stats}
      />
+     {/* <FriendList friends={friends} /> */}
    </>
    );
 };
