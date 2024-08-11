@@ -1,6 +1,6 @@
-import friends from '../App2/friends.json'
+import friends from './friends.json'
 import clsx from "clsx";
-import css from '.'
+import css from './'
 
 export default function FriendListItem ({
     friends: {avatar, name, isOnline, id} 

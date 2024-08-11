@@ -1,6 +1,6 @@
 import react from "react";
 import './App.css'
-import userData from "../userData/userDat.json";
+import userData from "./userDat.json";
 import css from "./Profile.module.css"
 
 const Profile = ({ name, tag, location, image, stats }) => {
@@ -38,7 +38,7 @@ export default function App () {
          location={userData.location}
          stats={userData.stats}
      />
-     {/* <FriendList friends={friends} /> */}
+     <FriendList friends={friends} />
    </>
    );
 };

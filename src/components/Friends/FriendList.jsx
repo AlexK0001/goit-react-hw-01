@@ -1,7 +1,7 @@
-import css from ''
+import css from './'
 import FriendListItem from './FriendListItem'
 
-export default function FriendList(friends: {id}) {
+export default function FriendList({friends}) {
     return (
     <div>
       <ul className={css.list}>
