@@ -33,10 +33,11 @@
     margin-top: 20px;
     list-style: none;
     background-color: #ebeef1;
+    width: 100%;
   }
   
   .stats li {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
