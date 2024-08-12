@@ -1,14 +1,14 @@
-import friends from './friends.json'
+import friends from '../../friends.json'
 import clsx from "clsx";
-import css from './'
+import css from './FriendListItem.module.css'
 
-export default function FriendListItem ({
-    friends: {avatar, name, isOnline, id} 
-}) {
+export default function FriendListItem 
+({ friends: {isOnline} })
+  {
     const containerClsx = clsx(
-        css.container,
-        isOnline ? css.isOnline : css.isRetired
-      );
+    css.container,
+    isOnline ? css.isOnline : css.isRetired
+    );
     
     return (
       <li className={containerClsx}>
